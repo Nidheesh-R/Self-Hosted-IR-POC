@@ -1,0 +1,40 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "existingDataFactoryName": {
+      "value":"clickstreamADFSandbox"
+    },
+    "existingDataFactoryResourceGroup": {
+      "value":"GDAP_Infosys"
+    },
+    "existingDataFactoryVersion": {
+      "value":"V2"
+    },
+    "IntegrationRuntimeName": {
+      "value":"test-selfhosted-IR"
+    },
+    "NodeCount":{
+      "value": 2
+    },
+    "adminUserName": {
+      "value": "user01"
+    },
+    "adminPassword": {
+      "value": "Password@"
+    },
+    "existingVirtualNetworkName":{
+      "value": "GDAP_Infosysvnet790"
+    },
+    "existingVnetLocation":
+    {
+      "value": "East US 2"
+    },
+    "existingVnetResourceGroupName":{
+      "value": "GDAP_Infosys"
+    },
+    "existingSubnetInYourVnet": {
+      "value": "default"
+    }
+  }
+}
